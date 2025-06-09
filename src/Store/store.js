@@ -1,10 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { authSlice } from "../Features/authSlice";
-import { productsSlice } from "../Features/ProductsSlice";
-import { productDetailsSlice } from "../Features/productDetailsSlice";
-import { categoriesSlice } from "../Features/categoriesSlice";
-import { wishlistSlice } from "../Features/wishListSlice";
-import { CartSlice } from "../Features/CartSlice";
+import { authSlice } from "../features/authSlice";
+import { productsSlice } from "../features/productsSlice";
+import { productDetailsSlice } from "../features/productDetailsSlice";
+import { categoriesSlice } from "../features/categoriesSlice";
+import { wishlistSlice } from "../features/wishListSlice";
+import { CartSlice } from "../features/CartSlice";
 
 export default configureStore({
   reducer: {
